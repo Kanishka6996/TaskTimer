@@ -1,0 +1,48 @@
+<resources>
+  <string name="app_name">Task Timer</string>
+  <string name="action_settings">Settings</string>
+  <string name="menuTitle_addTask">Add Task</string>
+  <string name="menumain_showDurations">Durations Report</string>
+  <string name="menumain_settings">Settings</string>
+  <string name="menumain_showAbout">About Task Timer</string>
+  <string name="menumain_generate">Generate Data</string>
+  <string name="no_task_message"> No Task Selected | Long press on a task to start timing</string>
+  <string name="hint_addname">Task Name</string>
+  <string name="hint_adddescription">Task Descreption</string>
+  <string name="hint_addsortorder">Sort Order</string>
+  <string name="title_activity_add_edit">AddEditActivity</string>
+  <string name="instructions_heading">Instructions</string>
+  <string name="instructions">Use the add (+) button in the toolbar to add the new task    Task with the lower sort order will be placed first, Task with the same sort order will be sorted alphabatically    Tapping a task will start the timer for it and stop all current task timers    Each task has edit and delete button if you want to edit or delete the task.</string>
+  <string name="ok">OK</string>
+  <string name="cancle">CANCLE</string>
+  <string name="cancel">CANCEL</string>
+  <string name="deldiag_positive_caption">Delete</string>
+  <string name="deldiag_message">Deleting will also delete timers associated with task id %1$d: %2$s.</string>
+  <string name="cancelEditDiag_message">Are you sure you want to abandone changes, or continue editing?</string>
+  <string name="cancleEditDiag_positive_caption">Continue Editing</string>
+  <string name="cancleEditDiag_negetive_caption">Abandon Changes</string>
+  <string name="about_copyright">Copyright © 2019 kanishka</string>
+  <string name="about_weblink">Instructions available at https://github.com/Kanishka6996/Task-Timer</string>
+  <string name="about_email">For support, email krpatel6996@gmail.com</string>
+  <string name="current_timing_text"> TIMING:  %1$s | Long press on a task to stop timing</string>
+
+
+  <string name="about_credits">
+    Icon derived from
+    <b>analog clock</b>
+    at openclipart.org by
+    <b>Anonymous</b>
+  </string>
+  <string name="td_task_name">Task Name</string>
+  <string name="td_text_date" />
+  <string name="td_tex_date">Date</string>
+  <string name="td_text_duration">Duration</string>
+  <string name="td_text_description">Description</string>
+  <string name="title_activity_durations_report">DurationsReport</string>
+  <string name="title_filter_day">Show day</string>
+  <string name="title_filter_week">Show week</string>
+  <string name="title_filter_date">Set Report Date</string>
+  <string name="title_delete">Delete</string>
+  <string name="channel_name">Task Timer</string>
+  <string name="channel_description">Task Timing Started</string>
+</resources>

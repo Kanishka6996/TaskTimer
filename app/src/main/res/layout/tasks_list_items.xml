@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  style="@style/Animation.AppCompat.Dialog"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="4dp"
+  android:background="@drawable/rounded_corner"
+  android:fadingEdge="horizontal|vertical"
+  android:orientation="vertical"
+  android:padding="8dp"
+  android:theme="@style/Base.CardView">
+
+  <TextView
+    android:id="@+id/tli_name"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:text="Task Timer Application"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toStartOf="@+id/tli_edit"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+    android:id="@+id/tli_description"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:text="Write course notes and videos for the task timer application."
+    android:textColor="?android:attr/textColorSecondary"
+    app:layout_constraintEnd_toStartOf="@+id/tli_edit"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tli_name"
+    tools:text="Write course notes and videos for the task timer application." />
+
+  <ImageButton
+    android:id="@+id/tli_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    app:layout_constraintEnd_toStartOf="@+id/tli_delete"
+    app:layout_constraintTop_toTopOf="@+id/tli_delete"
+    app:srcCompat="@drawable/ic_edit_black_24dp" />
+
+  <ImageButton
+    android:id="@+id/tli_delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/ic_delete_black_24dp_1" />
+</android.support.constraint.ConstraintLayout>
+
+
